@@ -1,0 +1,40 @@
+{
+  "name": "instance_of",
+  "version": "0.1.0",
+  "description": "ECMAScript instanceof operator",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "eslint index.js && ./node_modules/.bin/ava",
+    "prepublish": "panto"
+  },
+  "pre-commit": "test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanni4night/instance_of.git"
+  },
+  "keywords": [
+    "instanceof",
+    "instance_of",
+    "instance"
+  ],
+  "author": "yanni4night@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanni4night/instance_of/issues"
+  },
+  "homepage": "https://github.com/yanni4night/instance_of#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-latest": "^6.14.0",
+    "load-panto-transformers": "^0.1.0",
+    "panto": "0.0.32",
+    "panto-transformer-babel": "^0.1.6",
+    "panto-transformer-read": "^0.3.3",
+    "panto-transformer-write": "^0.3.3",
+    "time-panto": "^0.1.0"
+  },
+  "dependencies": {
+    "pre-commit": "^1.1.3"
+  }
+}
